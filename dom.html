@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Box Manipulation</title>
+  <link rel="stylesheet" href="./dom.css">
+</head>
+<body>
+  <div class="box" onclick="changeColorAndSize()"></div>
+
+  <script>
+    function changeColorAndSize() {
+      const box = document.querySelector('.box');
+      box.classList.add('yellow');
+    }
+  </script>
+</body>
+</html>
